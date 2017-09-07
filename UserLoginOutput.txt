@@ -1,0 +1,15 @@
+Login: &123&    (invalid)
+-- No uppercase letter
+-- No lowercase letter
+-- No special character
+Login: 45Ro@    (valid)
+Login: 12#Oop0    (valid)
+Login: gss    (invalid)
+-- No digit
+-- No uppercase letter
+-- No special character
+-- too short 
+Login: 885###    (invalid)
+-- No uppercase letter
+-- No lowercase letter
+
