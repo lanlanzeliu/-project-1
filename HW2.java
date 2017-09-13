@@ -25,12 +25,15 @@ public class HW2 {
    
       FileWriter outputDataFile = new FileWriter (OUTPUT_FILE);
       PrintWriter outputFile = new PrintWriter (outputDataFile);
-      
+            
       Scanner input1 = new Scanner(System.in);
-      
+      System.out.println("1 means import the data, 2 means list of all countries" 
+         + "\nthat border Germany, 3 means list of all countries that have a population" 
+         + "\ngreater than 35 million, 4 means list of all countries that border Germany" 
+         + "\nand have a population greater than 35 million, 5 means quit the program");
       while (input <=5) {
 
-         System.out.println("please pick up any number from 1 to 5");          
+         System.out.println("please pick up any number from 1 to 5"); 
          input = input1.nextInt();
         
          if(input == 1){
@@ -42,14 +45,16 @@ public class HW2 {
                   System.out.println(b.borders[0][j]);
                   outputFile.println(b.borders[0][j]);
                }
+                  outputFile.println();
          }
          else if (input==3){
             for(int i = 0; i< countryArray.length; i++){
                if (countryArray[i].countryPopulation >=35000000) {
                   System.out.println(countryArray[i].countryName);
                   outputFile.println(countryArray[i].countryName);       
-               }
+               }  
             }
+            outputFile.println();
          }
          else if (input == 4){
             Borders b = new Borders();
@@ -63,15 +68,17 @@ public class HW2 {
                   }  
                }
             }
+                        
+            outputFile.println();
          }
          else if (input == 5){
+         inputFile.close();
+         outputFile.close();
          System.exit(0);
          }
          
       }
-      inputFile.close();
-      outputFile.close();
-      System.exit(0);
+      
    } // end main
    
    // Read the input file into the country array 
