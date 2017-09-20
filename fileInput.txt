@@ -1,4 +1,4 @@
-CountryName    Latitude      Longitude        Area       Population      GDP     Year
+CountryName    Latitude      Longitude        Area       Population   GDP        Year
 Germany         5100N          900E          357022      80594017     3980       2016
 Netherlands     5230N          545E          41543       17084719     869.4      2016
 Belgium         5050N          400E          30528       11491346     509.6      2016   
