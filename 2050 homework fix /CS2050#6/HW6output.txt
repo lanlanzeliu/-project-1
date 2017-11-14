@@ -1,0 +1,73 @@
+
+Please type the size of the array which gonna sort
+
+Please type the largest number of the array which gonna sort
+
+
+The unsort array is:
+ 6 2 6 17 16 15 11 11
+The sort array is:
+ 2 6 6 11 11 15 16 17
+Please type the size of the array which gonna sort
+
+Please type the largest number of the array which gonna sort
+
+This is the wall clock time for merge sort: 
+0
+This is the CPU time for merge sort: 
+400
+
+This is the wall clock time for java
+2
+
+This is the cpu  time for java
+2055667
+
+Please type the size of the array which gonna sort
+
+Please type the largest number of the array which gonna sort
+
+The unsort array is:
+ 38.638618672673914 32.31084347880869 28.40760141947112 31.106887279587788 21.64344188782767 27.489603300575947
+The sort array is:
+ 21.64344188782767 27.489603300575947 28.40760141947112 31.106887279587788 32.31084347880869 38.638618672673914
+Please type the size of the array which gonna sort
+
+Please type the largest number of the array which gonna sort
+This is the wall clock time for merge sort: 
+0
+This is the CPU time for merge sort: 
+447
+
+This is the wall clock time for java
+1
+
+This is the cpu time for java
+1319943
+
+Please type the size of the array which gonna sort
+
+The unsort array is:
+ QXcyRp sqReIJ BiXFet 9wn88l 8MwkOd
+The sort array is:
+sqReIJ QXcyRp BiXFet 9wn88l 8MwkOd 
+Please type the size of the array which gonna sort
+This is the wall clock time for merge sort: 
+0
+This is the CPU time for merge sort: 
+345
+
+This is the wall clock time for java
+0
+
+This is the cpu time for java
+518865
+
+Please type the size of the array which gonna sort
+
+Please type the largest number of the array which gonna sort
+
+The unsort array is:
+ 21.353421124935885 15.423535576446216 27.407491947168083 7.663295133354584 21.809984852260385
+The sort array is:
+ 7.663295133354584 15.423535576446216 21.353421124935885 21.809984852260385 21.809984852260385
