@@ -1,0 +1,6 @@
+This is the first 5 keys and values of Java's built in hash table:
+the index 139085 with the value is:    
+the index 139084 with the value is: license
+the index 139083 with the value is: full
+the index 139082 with the value is: end 
+the index 139081 with the value is:    
