@@ -1,0 +1,4 @@
+Part 1 
+Since I know there are 139086 words in the file from the previous homework. I choose the load factor 0.75 here. So 139086/M = 2.50, So M = 55634, since 55634 is not a prime number, so the next prime number which bigger than it is 55637, so this should be the array size.
+Part 2 
+I chose 110000 as the initial size and 75% as the initial fill ratio. I chose 10000 because the hash table would have to resize itself in order to work with the default .75 fill ratio. 
